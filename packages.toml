@@ -1,0 +1,16 @@
+packages = [
+  "emacs-pgtk",
+  "git",
+  "cmatrix",
+  "python3",
+  "cosmic-term",
+  "go",
+  "nautilus",
+  "typst",
+  "xwayland-satellite"
+]
+
+flatpaks = [
+  "app.zen_browser.zen",
+  "org.onlyoffice.desktopeditors"
+]
