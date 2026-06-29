@@ -7,7 +7,8 @@ packages = [
   "go",
   "nautilus",
   "typst",
-  "xwayland-satellite"
+  "xwayland-satellite",
+  "stow"
 ]
 
 flatpaks = [
