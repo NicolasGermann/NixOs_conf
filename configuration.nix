@@ -95,11 +95,13 @@ in{
     ];
   };
 
+  services.upower.enable = true;
   # Install firefox.
-  programs.firefox.enable = false;
+  programs.firefox.enable = true;
 
   programs.niri.enable = true;
   programs.dms-shell.enable = true;
+  programs.dms-shell.enableSystemMonitoring = true;
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;

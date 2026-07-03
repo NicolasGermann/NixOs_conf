@@ -3,12 +3,18 @@ packages = [
   "git",
   "cmatrix",
   "python3",
-  "cosmic-term",
+  "alacritty",
   "go",
   "nautilus",
   "typst",
   "xwayland-satellite",
-  "stow"
+  "stow",
+  "vim",
+  "zellij",
+  "opencode",
+  "neovim",
+  "htop",
+  "fastfetch"
 ]
 
 flatpaks = [
