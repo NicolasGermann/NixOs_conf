@@ -5,6 +5,7 @@
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-26.05";
     nixpkgsus.url = "github:nixos/nixpkgs?ref=nixos-unstable";
     nix-flatpak.url = "github:gmodena/nix-flatpak/?ref=latest";
+    xremap-flake.url = "github:xremap/nix-flake";
   };
   outputs = { self, nixpkgs, ... }@inputs:
     let

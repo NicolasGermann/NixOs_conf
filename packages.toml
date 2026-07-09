@@ -14,10 +14,20 @@ packages = [
   "opencode",
   "neovim",
   "htop",
-  "fastfetch"
+  "fastfetch",
+  "nodejs",
+  "lazygit",
+  "ripgrep",
+  "tree-sitter",
+  "qmk",
+  "fuzzel",
+  "gcc"
 ]
 
 flatpaks = [
   "app.zen_browser.zen",
-  "org.onlyoffice.desktopeditors"
+  "org.onlyoffice.desktopeditors",
+  "net.lutris.Lutris",
+  "com.discordapp.Discord",
+  "org.jamovi.jamovi"
 ]
